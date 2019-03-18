@@ -1,0 +1,213 @@
+html, body {
+height: 100%;
+}
+
+body {
+font-family:'Times New Roman';
+position:relative;
+height:100%;
+margin: 0;
+padding: 0;
+text-align: center;
+overflow-y: scroll;
+overflow-x: hidden;
+background-color: black;
+color: #fff;
+}
+
+#skrollr-body{
+padding:0 0;
+}
+footer{
+  margin-top: 50%;
+  width: 100%;
+  color: #403F3F;
+  background-color: black;
+}
+h1{
+font-family:'Times New Roman';
+margin:0;
+padding:0.5px;
+text-shadow:0.2em 0.2em 0.2em #777;
+padding-top: 25%;
+padding-bottom: 20%;
+letter-spacing: 7px;
+}
+h3{
+  font-size: 22px;
+}
+p{
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+ul {
+  list-style: none;
+}
+.page{
+  margin:0;
+  letter-spacing: 0.2em;
+  text-align: center;
+  width:100%;
+  height: 100%;
+  min-height:45em;
+}
+.kigou{
+  padding-bottom: 7%;
+}
+#section1 h1{
+  color: #fff;1
+
+}
+#section2 h2{
+font-family:'Times New Roman',sans-serif;
+margin:0;
+padding-top: 7%;
+font-size: 54px;
+letter-spacing: 5px;
+
+}
+#section3 h2{
+  padding-top: 4%;
+  font-size: 70px;
+}
+#section5 h2{
+  padding-top: 3%;
+  font-size: 70px;
+}
+.img-slide{
+  height: 600px;
+  width:  560px;
+  margin-top: 18%;
+  margin-left: 26%;
+  position: absolute;
+  z-index: 20;
+}
+.App_right{
+  padding-top: 0%;
+  margin-left: 10%;
+}
+.App_right{
+  width: 100%;
+}
+.App_right p{
+  letter-spacing: 6px;
+}
+.slide-back{
+  padding-right: 110%;
+}
+.sb1{
+  display: none;
+}
+.sb2{
+  display: none;
+}
+.active{
+  display: block;
+}
+.carousel-indicators{
+  top: 104%;
+  padding-left: 60%;
+}
+#top{
+background: url("../images/top.png");
+padding: 30%;
+height: 100%;
+}
+#section1 {
+ background: url("../images/Lamp_1.jpg") no-repeat fixed center center /cover;
+}
+.kigou{
+  margin-bottom: 80px;
+}
+
+#section2 {
+  margin-top: 10%;
+}
+#section3{
+  margin-bottom: 20%;
+}
+#section3 img{
+  z-index: 10;
+  position: relative;
+}
+
+#section4 {
+position: relative;
+}
+#section5{
+  padding-top: 11%;
+}
+
+.img-content{
+  background: url("../images/hokusai.jpg") no-repeat fixed center center /cover;
+  height: 800px;
+}
+.img-content h2{
+  color: black;
+  padding-top: 23%;
+  text-shadow:0.2em 0.2em 0.2em #777;
+
+}
+
+
+.button {
+  display: inline-block;
+  width: 200px;
+  height: 54px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 54px;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  background-color: black;
+  border: 2px solid #fff;
+  color: #fff;
+  line-height: 50px;
+  overflow: hidden;
+}
+.button:hover {
+  color: black;
+  border: 2px solid black;
+  text-decoration: none;
+}
+.button::after {
+  top: 0%;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+}
+.button:hover::after {
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  color: black;
+}
+.button::before,
+.button::after {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  content: '';
+}
+.button,
+.button::before,
+.button::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+footer h2{
+  font-size: 22px;
+}
+footer img{
+  height: 350px;
+  cursor: pointer;
+}
+.footer_content{
+  height: 50%;
+  width: 100%;
+}
